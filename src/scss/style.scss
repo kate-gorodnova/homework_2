@@ -1,0 +1,27 @@
+@import './identic/colors';
+@import './identic/typography';
+@import './identic/mixins';
+@import './blocks/promo';
+@import './blocks/header';
+@import './blocks/portfolio';
+@import './blocks/dd';
+@import './blocks/services';
+@import './blocks/prize';
+@import './blocks/btn';
+@import './blocks/crcl';
+@import './identic/form';
+@import './blocks/faq';
+@import './blocks/last';
+
+* {
+    margin: 0;
+    border:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: Raleway, sans-serif;
+}
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}

@@ -1,0 +1,50 @@
+.faq { 
+    width: 1440px;
+    background: $black_main;
+    text-align: center;
+    padding-bottom: 120px;
+   
+&__header {
+    color: $white_main;
+    padding-top: 120px;
+}
+&__box {
+    padding-top: 80px;
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+&__box-item {
+    width: 100%;
+    text-align: left;
+    padding: 32px 40px;
+    align-self: stretch;
+    border-radius: 16px;
+    border: 1px solid #CCC;
+    background: #FFF;
+}
+&__box-item:hover {
+    background: #75abfc;
+}
+&__answer {
+    display: none;
+    margin-top: 24px;
+}
+&__text {
+    display: block;
+    cursor: pointer;
+}
+
+&__box-input {
+    appearance: none;
+    width: 0;
+    height: 0;
+    position:absolute;
+}
+}
+.faq__box-input:checked + .faq__answer {
+    display: block;
+}

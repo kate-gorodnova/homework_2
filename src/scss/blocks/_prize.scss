@@ -1,0 +1,22 @@
+.prize {
+    text-align: center;
+    width: 1440px;
+    &__icon {
+        top: 4532px;
+        left: 61px;
+    }
+    &__icon-pic {
+        @include icon;
+    }
+    &__icon2 {
+        top: 4655px;
+        left: 1206px;
+    }
+    &__icon-pic2 {
+        @include icon;
+    }
+    &__header {
+        padding-top: 120px;
+        text-align: center;
+    }
+}

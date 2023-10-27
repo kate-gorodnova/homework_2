@@ -1,0 +1,34 @@
+.promo {
+    width: 1440px;
+    padding-top: 76px;
+    text-align: center;
+    &__title {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+    &__descr {
+        margin: 0 auto;
+        margin-top: 40px;
+        max-width: 484px;;
+    }
+    &__btns-group {
+        margin-top: 80px;
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    &__icon {
+        left: 1170px;
+        top: 410px;
+    }
+    &__icon-storm {
+        @include icon;
+    }
+    &__icon-ms {
+        left: 209px;
+        top: 362px;
+    }
+    &__icon-message {
+        @include icon;
+    }
+}

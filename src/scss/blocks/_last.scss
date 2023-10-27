@@ -1,0 +1,28 @@
+.last {
+    width: 1440px;
+    text-align: center;
+    &__header {
+        margin-top: 120px;
+    }
+    &-crcl {
+        left: 111px;
+        top: 6774px;
+    }
+    &-icon {
+        @include icon;
+    }
+    &-crcl2 {
+        top: 7156px;
+        left: 1252px;
+    }
+    &-icon2 {
+        @include icon;
+    }
+    &-icon3 {
+        @include icon;
+    }
+    &-crcl3 {
+        left: 250px;
+        top: 7392px;
+    }
+}
